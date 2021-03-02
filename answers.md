@@ -30,9 +30,11 @@ Question 5: What is an XSS attack? Provide one way a site can be vulneratble to 
     If a site interprets things like <script> as html tags instead of text, then it is vulnerable to XSS attacks.
 
 
-Question 6: What does CORS stand for? What situation in web application development will you need to implement CORS?
+Question 6: What does CORS stand for? What situation in web application development will you need to implement CORS protection?
 
 Hint: What does the CO part of CORS mean?
 
     CORS = Cross-Origin Resource Sharing
-    It allows another domain access to some of the resources in our domain
+    It allows domain to access resources from other origins. 
+    We will need to implement CORS protection if we need to load resources hosted by other domains (other than our server).
+
